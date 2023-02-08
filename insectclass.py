@@ -6,13 +6,11 @@ legs = 4
 
 class Insect:
     def __int__(self):
-        self.amount = "wings"
+        self.amount = "fly"
 
     def number(self):
         if random.randint(0, 10):
-            self.amount = "wings"
-        else:
-            self.amount = "legs"
+            self.amount = "fly"
 
     def get_amount(self):
         return self.amount
