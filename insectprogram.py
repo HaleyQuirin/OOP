@@ -1,12 +1,10 @@
 import insectclass as i
 
+mosquito = i.insect("mosquito", 2, 4)
+housefly = i.insect("housefly", 2, 4)
 
-def main():
-    my_insect = i.Insect()
-    # print("The insect has: ", my_insect.get_amount())
-    print("I am going to calculate the insects flight time:")
+mosquito.flight_length()
+housefly.flight_length()
 
-    for count in range(10):
-        my_coin.toss()
-
-        print("This side is up:", my_coin.get_sideup())
+print(f"The {mosquito.get_name()} can fly up to {mosquito.get_miles()} miles")
+print(f"The {housefly.get_name()} can fly up to {housefly.get_miles()} miles")
