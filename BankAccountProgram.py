@@ -1,4 +1,4 @@
-100  # This program demonstrates the BankAccount class.
+# This program demonstrates the BankAccount class.
 
 import BankAccountClass as bc
 
